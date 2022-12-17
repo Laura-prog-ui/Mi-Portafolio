@@ -11,6 +11,10 @@ html, body{
 
 }
 
+.logo{
+    margin: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -22,22 +26,76 @@ ul{
     padding: 0;
     margin: 0;
     display: flex;
+    color: white;
 }
 
 ul li a{
     padding: 0 16px;
 }
 
-div#banner{
-    width: 100%;
-    height: 300px;
+.boton{
+    background: #CBACEB;
+    color: #ffffff;
+    border-radius: 5px;
 }
-img#img_banner{
-    display: flexbox;
-    margin: auto;
-    width: 100%;
-    max-width: 1642px;
-    min-width: 500px;
+
+.boton2{
+    background: #AA95C5;
+    color: #ffffff;
+    border-radius: 5px;
 }
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.titulo2{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.linea{
+    color: #B4A0CD;
+}
+
+/*.lbl-menu{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.lbl-menu #spn1, #spn2, #spn3{
+    position: absolute;
+    content: '';
+    background-color: #ffffff;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+#spn2{
+    top: 11px;
+}
+#spn3{
+    top: 22px;
+}
+#btn-menu{
+    display: none;
+}
+#btn-menu:checked ~ .lbl-menu #spn1{
+    transform: rotate(140deg);
+    top: 10px;
+}
+#btn-menu:checked ~ .lbl-menu #spn2{
+    opacity: 0;
+}
+#btn-menu:checked ~ .lbl-menu #spn3{
+    transform: rotate(-140deg);
+    top: 10px;
+}*/
+
+
 
 
