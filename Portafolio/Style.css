@@ -40,7 +40,7 @@ ul li a{
 }
 
 .boton2{
-    background: #AA95C5;
+    background: #aa95c59e;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -56,8 +56,10 @@ ul li a{
 }
 
 .linea{
-    color: #B4A0CD;
+    color: #aa95c58b;
 }
+
+
 
 /*.lbl-menu{
     width: 50px;
